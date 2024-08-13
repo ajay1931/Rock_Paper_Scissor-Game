@@ -1,1 +1,41 @@
+body{
+    background-image: url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 86vh;
+}
+form {
+   
+    background-color:rgba(255, 255, 255, 0.37);
+    color: rgb(8, 8, 8);
+    padding: 3em;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 2em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    padding: .5em;
+    border-radius: 1em;
+    width: 6em;
+}
+button:hover{
+    cursor: pointer;
+}
+p{
+    color: rgb(7, 241, 152);
+}
